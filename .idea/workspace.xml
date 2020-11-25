@@ -1,13 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1500dbde-b1be-4411-b04e-d089d872d456" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/check-overflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/check-overflow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/date-from-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/date-from-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-anything.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-anything.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-object.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string-and-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string-and-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string-and-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string-and-format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/from-string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/local.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/parsing-flags.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/parsing-flags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/utc.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/utc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/create/valid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/abs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/abs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/add-subtract.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/add-subtract.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/as.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/as.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/bubble.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/bubble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/duration.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/duration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/humanize.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/humanize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/iso-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/iso-string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/duration/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/format/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/format/format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/base-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/base-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/formats.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/formats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/invalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/invalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/locale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/ordinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/ordinal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/pre-post-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/pre-post-format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/relative.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/relative.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/locale/set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/add-subtract.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/add-subtract.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/clone.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/clone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/compare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/diff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/from.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/from.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/get-set.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/get-set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/locale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/min-max.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/min-max.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/start-end-of.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/start-end-of.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/to-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/to-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/to.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/to.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/moment/valid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-month.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-month.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-week.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-week.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-year.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/day-of-year.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/millisecond.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/millisecond.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/week-calendar-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/week-calendar-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/week-year.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/units/week-year.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-ceil.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-ceil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-round.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/abs-round.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/deprecate.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/deprecate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/index-of.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/index-of.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/some.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/lib/utils/some.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bo.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/br.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/dv.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/dv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/src/locale/fy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/controllers/product_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/controllers/product_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/views/product/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/views/shared/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/views/shared/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/views/shared/layout.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/mysql.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/product_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/product_repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +155,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/web/views/product" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +166,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\GoProjects\src\goseckill\backend\web\views\product" />
+      <recent name="D:\JetBrains\GoProjects\src\goseckill\backend\web\views\shared" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\common" />
     </key>
   </component>
@@ -75,6 +191,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -88,29 +215,60 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1119" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606114995133" />
-    <state width="1210" height="223" key="GridCell.Tab.0.bottom" timestamp="1606226232594">
+    <state width="1210" height="223" key="GridCell.Tab.0.bottom" timestamp="1606293358213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606226232594" />
-    <state width="1210" height="223" key="GridCell.Tab.0.center" timestamp="1606226232593">
+    <state width="1210" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606293358213" />
+    <state width="1210" height="223" key="GridCell.Tab.0.center" timestamp="1606293358213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606226232593" />
-    <state width="1210" height="223" key="GridCell.Tab.0.left" timestamp="1606226232592">
+    <state width="1210" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606293358213" />
+    <state width="1210" height="223" key="GridCell.Tab.0.left" timestamp="1606293358213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606226232592" />
-    <state width="1210" height="223" key="GridCell.Tab.0.right" timestamp="1606226232594">
+    <state width="1210" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606293358213" />
+    <state width="1210" height="223" key="GridCell.Tab.0.right" timestamp="1606293358213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606226232594" />
+    <state width="1210" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606293358213" />
+    <state width="1210" height="277" key="GridCell.Tab.1.bottom" timestamp="1606286286943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1210" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606286286943" />
+    <state width="1210" height="277" key="GridCell.Tab.1.center" timestamp="1606286286943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1210" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606286286943" />
+    <state width="1210" height="277" key="GridCell.Tab.1.left" timestamp="1606286286943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1210" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606286286943" />
+    <state width="1210" height="277" key="GridCell.Tab.1.right" timestamp="1606286286943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1210" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606286286943" />
     <state x="840" y="188" key="SettingsEditor" timestamp="1606105280160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606105280160" />
+    <state x="933" y="104" width="596" height="804" key="find.popup" timestamp="1606292252097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="933" y="104" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606292252096" />
     <state x="1002" y="295" width="672" height="678" key="search.everywhere.popup" timestamp="1606105404553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1002" y="295" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606105404553" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/repositories/product_repository.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,15 +1,16 @@
-import { configFromISO } from './from-string';
-import { configFromArray } from './from-array';
-import { getParseRegexForToken }   from '../parse/regex';
-import { addTimeToArrayFromToken } from '../parse/token';
-import { expandFormat, formatTokenFunctions, formattingTokens } from '../format/format';
+import {configFromISO} from './from-string';
+import {configFromArray} from './from-array';
+import {getParseRegexForToken} from '../parse/regex';
+import {addTimeToArrayFromToken} from '../parse/token';
+import {expandFormat, formattingTokens, formatTokenFunctions} from '../format/format';
 import checkOverflow from './check-overflow';
-import { HOUR } from '../units/constants';
-import { hooks } from '../utils/hooks';
+import {HOUR} from '../units/constants';
+import {hooks} from '../utils/hooks';
 import getParsingFlags from './parsing-flags';
 
 // constant that refers to the ISO standard
-hooks.ISO_8601 = function () {};
+hooks.ISO_8601 = function () {
+};
 
 // date from string and format string
 export function configFromStringAndFormat(config) {
@@ -47,13 +48,11 @@ export function configFromStringAndFormat(config) {
         if (formatTokenFunctions[token]) {
             if (parsedInput) {
                 getParsingFlags(config).empty = false;
-            }
-            else {
+            } else {
                 getParsingFlags(config).unusedTokens.push(token);
             }
             addTimeToArrayFromToken(token, parsedInput, config);
-        }
-        else if (config._strict && !parsedInput) {
+        } else if (config._strict && !parsedInput) {
             getParsingFlags(config).unusedTokens.push(token);
         }
     }
@@ -81,7 +80,7 @@ export function configFromStringAndFormat(config) {
 }
 
 
-function meridiemFixWrap (locale, hour, meridiem) {
+function meridiemFixWrap(locale, hour, meridiem) {
     var isPm;
 
     if (meridiem == null) {

@@ -1,10 +1,9 @@
 import extend from './extend';
-import { hooks } from './hooks';
-import isUndefined from './is-undefined';
+import {hooks} from './hooks';
 
 function warn(msg) {
     if (hooks.suppressDeprecationWarnings === false &&
-            (typeof console !==  'undefined') && console.warn) {
+        (typeof console !== 'undefined') && console.warn) {
         console.warn('Deprecation warning: ' + msg);
     }
 }
