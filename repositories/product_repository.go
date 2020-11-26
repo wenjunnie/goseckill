@@ -9,7 +9,7 @@ import (
 
 //第一步，先开发对应的接口
 //第二步，实现定义的接口
-type IProduct interface {
+type IProductRepository interface {
 	//连接数据
 	Conn() error
 	Insert(*datamodels.Product) (int64, error)
@@ -19,18 +19,18 @@ type IProduct interface {
 	SelectAll() ([]*datamodels.Product, error)
 }
 
-type ProductManager struct {
+type ProductManagerRepository struct {
 	table     string
 	mysqlConn *sql.DB
 }
 
 //构造函数，实现接口自检
-func NewProductManager(table string, db *sql.DB) IProduct {
-	return &ProductManager{table: table, mysqlConn: db}
+func NewProductManagerRepository(table string, db *sql.DB) IProductRepository {
+	return &ProductManagerRepository{table: table, mysqlConn: db}
 }
 
 //数据连接
-func (p ProductManager) Conn() (err error) {
+func (p ProductManagerRepository) Conn() (err error) {
 	if p.mysqlConn == nil {
 		mysql, err := common.NewMysqlConn()
 		if err != nil {
@@ -45,7 +45,7 @@ func (p ProductManager) Conn() (err error) {
 }
 
 //插入
-func (p ProductManager) Insert(product *datamodels.Product) (productId int64, err error) {
+func (p ProductManagerRepository) Insert(product *datamodels.Product) (productId int64, err error) {
 	//1.判断连接是否存在
 	if err = p.Conn(); err != nil {
 		return
@@ -65,7 +65,7 @@ func (p ProductManager) Insert(product *datamodels.Product) (productId int64, er
 }
 
 //商品的删除
-func (p *ProductManager) Delete(productID int64) bool {
+func (p *ProductManagerRepository) Delete(productID int64) bool {
 	//1.判断连接是否存在
 	if err := p.Conn(); err != nil {
 		return false
@@ -83,7 +83,7 @@ func (p *ProductManager) Delete(productID int64) bool {
 }
 
 //商品的更新
-func (p *ProductManager) Update(product *datamodels.Product) error {
+func (p *ProductManagerRepository) Update(product *datamodels.Product) error {
 	//1.判断连接是否存在
 	if err := p.Conn(); err != nil {
 		return err
@@ -101,7 +101,7 @@ func (p *ProductManager) Update(product *datamodels.Product) error {
 }
 
 //根据商品ID查询商品
-func (p *ProductManager) SelectByKey(productID int64) (productResult *datamodels.Product, err error) {
+func (p *ProductManagerRepository) SelectByKey(productID int64) (productResult *datamodels.Product, err error) {
 	//1.判断连接是否存在
 	if err = p.Conn(); err != nil {
 		return &datamodels.Product{}, err
@@ -122,7 +122,7 @@ func (p *ProductManager) SelectByKey(productID int64) (productResult *datamodels
 }
 
 //查询所有商品
-func (p *ProductManager) SelectAll() (productArray []*datamodels.Product, errProduct error) {
+func (p *ProductManagerRepository) SelectAll() (productArray []*datamodels.Product, errProduct error) {
 	//1.判断连接是否存在
 	if err := p.Conn(); err != nil {
 		return nil, err

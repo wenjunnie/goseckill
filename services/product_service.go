@@ -14,11 +14,11 @@ type IProductService interface {
 }
 
 type ProductService struct {
-	productRepository repositories.IProduct
+	productRepository repositories.IProductRepository
 }
 
 //初始化函数
-func NewProductService(repository repositories.IProduct) IProductService {
+func NewProductService(repository repositories.IProductRepository) IProductService {
 	return &ProductService{productRepository: repository}
 }
 
