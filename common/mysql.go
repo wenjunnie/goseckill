@@ -15,7 +15,7 @@ func NewMysqlConn() (db *sql.DB, err error) {
 func GetResultRow(rows *sql.Rows) map[string]string {
 	columns, _ := rows.Columns()
 	scanArgs := make([]interface{}, len(columns))
-	values := make([]interface{}, len(columns))
+	values := make([][]byte, len(columns))
 	for j := range values {
 		scanArgs[j] = &values[j]
 	}
@@ -25,7 +25,7 @@ func GetResultRow(rows *sql.Rows) map[string]string {
 		rows.Scan(scanArgs...)
 		for i, v := range values {
 			if v != nil {
-				record[columns[i]] = string(v.([]byte))
+				record[columns[i]] = string(v)
 			}
 		}
 	}
@@ -40,7 +40,7 @@ func GetResultRows(rows *sql.Rows) map[int]map[string]string {
 	scanArgs := make([]interface{}, len(columns))
 	//这里表示一行所有列的值，用[]byte表示
 	values := make([][]byte, len(columns))
-	//这里scans引用vals，把数据填充到[]byte里
+	//这里scanArgs引用values，把数据填充到[]byte里
 	for k, _ := range values {
 		scanArgs[k] = &values[k]
 	}
@@ -51,7 +51,7 @@ func GetResultRows(rows *sql.Rows) map[int]map[string]string {
 		rows.Scan(scanArgs...)
 		//每行数据
 		row := make(map[string]string)
-		//把vals中的数据复制到row中
+		//把values中的数据复制到row中
 		for k, v := range values {
 			key := columns[k]
 			//这里把[]byte数据转成string
