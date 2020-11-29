@@ -7,6 +7,7 @@ import (
 	"github.com/kataras/iris/v12/sessions"
 	"github.com/opentracing/opentracing-go/log"
 	"goseckill/common"
+	"goseckill/fronted/middleware"
 	"goseckill/fronted/web/controllers"
 	"goseckill/repositories"
 	"goseckill/services"
@@ -48,6 +49,18 @@ func main() {
 	userPro := mvc.New(app.Party("/user"))
 	userPro.Register(userService, ctx, sess.Start)
 	userPro.Handle(new(controllers.UserController))
+
+	product := repositories.NewProductManagerRepository("product", db)
+	productService := services.NewProductService(product)
+	order := repositories.NewOrderMangerRepository("order", db)
+	orderService := services.NewOrderService(order)
+	proProduct := app.Party("/product")
+	pro := mvc.New(proProduct)
+	//权限校验
+	proProduct.Use(middleware.AuthConProduct)
+	pro.Register(productService, orderService)
+	pro.Handle(new(controllers.ProductController))
+	//6.启动服务
 	app.Run(
 		iris.Addr("localhost:8082"),
 		iris.WithoutServerError(iris.ErrServerClosed),

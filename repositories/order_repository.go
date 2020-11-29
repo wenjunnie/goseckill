@@ -44,7 +44,7 @@ func (o *OrderMangerRepository) Insert(order *datamodels.Order) (productID int64
 	if err = o.Conn(); err != nil {
 		return
 	}
-	sql := "INSERT " + o.table + " set userID=?,productID=?,orderStatus=?"
+	sql := "INSERT goseckill." + o.table + " set userID=?,productID=?,orderStatus=?"
 	stmt, errStmt := o.mysqlConn.Prepare(sql)
 	if errStmt != nil {
 		return productID, errStmt
@@ -60,7 +60,7 @@ func (o *OrderMangerRepository) Delete(orderID int64) (isOk bool) {
 	if err := o.Conn(); err != nil {
 		return
 	}
-	sql := "delete from " + o.table + " where ID =?"
+	sql := "delete from goseckill." + o.table + " where ID =?"
 	stmt, errStmt := o.mysqlConn.Prepare(sql)
 	if errStmt != nil {
 		return
@@ -76,7 +76,7 @@ func (o *OrderMangerRepository) Update(order *datamodels.Order) (err error) {
 	if errConn := o.Conn(); errConn != nil {
 		return errConn
 	}
-	sql := "Update " + o.table + " set userID=?,productID=?,orderStatus=? Where ID=" + strconv.FormatInt(order.ID, 10)
+	sql := "Update goseckill." + o.table + " set userID=?,productID=?,orderStatus=? Where ID=" + strconv.FormatInt(order.ID, 10)
 	stmt, errStmt := o.mysqlConn.Prepare(sql)
 	if errStmt != nil {
 		return errStmt
@@ -89,7 +89,7 @@ func (o *OrderMangerRepository) SelectByKey(orderID int64) (order *datamodels.Or
 	if errConn := o.Conn(); errConn != nil {
 		return &datamodels.Order{}, errConn
 	}
-	sql := "Select * From " + o.table + " where ID=" + strconv.FormatInt(orderID, 10)
+	sql := "Select * From goseckill." + o.table + " where ID=" + strconv.FormatInt(orderID, 10)
 	row, errRow := o.mysqlConn.Query(sql)
 	if errRow != nil {
 		return &datamodels.Order{}, errRow
@@ -107,7 +107,7 @@ func (o *OrderMangerRepository) SelectAll() (orderArray []*datamodels.Order, err
 	if errConn := o.Conn(); errConn != nil {
 		return nil, errConn
 	}
-	sql := "Select * from " + o.table
+	sql := "Select * from goseckill." + o.table
 	rows, errRows := o.mysqlConn.Query(sql)
 	if errRows != nil {
 		return nil, errRows
@@ -128,7 +128,7 @@ func (o *OrderMangerRepository) SelectAllWithInfo() (OrderMap map[int]map[string
 	if errConn := o.Conn(); errConn != nil {
 		return nil, errConn
 	}
-	sql := "Select o.ID,p.productName,o.orderStatus From goseckill.order as o left join product as p on o.productID=p.ID"
+	sql := "Select o.ID,p.productName,o.orderStatus From `order` as o left join product as p on o.productID=p.ID"
 	rows, errRows := o.mysqlConn.Query(sql)
 	if errRows != nil {
 		return nil, errRows
