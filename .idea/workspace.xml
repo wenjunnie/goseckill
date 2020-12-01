@@ -21,96 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1500dbde-b1be-4411-b04e-d089d872d456" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/js/app-charts-chartjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/js/app-charts-chartjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.material.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.material.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.semanticui.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.uikit.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/dataTables.uikit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/jquery.dataTables_themeroller.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.material.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.semanticui.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.uikit.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/dataTables.uikit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.colVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.colVis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.html5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.print.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/buttons.print.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/dataTables.buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/datatables/plugins/buttons/js/dataTables.buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/dropzone/dist/dropzone-amd-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/dropzone/dist/dropzone-amd-module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/dropzone/dist/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/dropzone/dist/dropzone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/fuelux/js/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/fuelux/js/wizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/es-do.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/es-do.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/fr-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/fr-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/fr-ch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/hy-am.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/hy-am.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/ms-my.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/ms-my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/pa-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/pa-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/sr-cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/sr-cyrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/tl-ph.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/tl-ph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/tzm-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/tzm-latn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/x-pseudo.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/x-pseudo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/locale/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/min/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/min/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/moment.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/moment.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/locale-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/locale-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/test-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/moment.js/templates/test-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/parsley/parsley.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/parsley/parsley.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ar-AR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ar-AR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-bg-BG.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-bg-BG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ca-ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ca-ES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-cs-CZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-cs-CZ.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-da-DK.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-da-DK.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-de-DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-de-DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-el-GR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-el-GR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-es-ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-es-ES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-es-EU.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-es-EU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fa-IR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fa-IR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fi-FI.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fi-FI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fr-FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-fr-FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-gl-ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-gl-ES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-he-IL.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-he-IL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-hr-HR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-hr-HR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-hu-HU.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-hu-HU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-id-ID.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-id-ID.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-it-IT.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-it-IT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ja-JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ja-JP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ko-KR.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-ko-KR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-lt-LT.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-lt-LT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-lt-LV.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-lt-LV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-mn-MN.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-mn-MN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-nb-NO.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-nb-NO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-nl-NL.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/lib/summernote/lang/summernote-nl-NL.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fronted/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/css/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/css/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/css/font-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/css/font-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/css/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/css/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/css/font-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/css/font-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/price-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/price-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/public/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/views/shared/productLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/views/shared/productLayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/views/template/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/views/template/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/views/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/views/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fronted/productMain.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloworld" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,14 +67,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\GoProjects\src\goseckill" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted\web\views" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted\web\controllers" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\services" />
-      <recent name="D:\JetBrains\GoProjects\src\goseckill\repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build goseckill/fronted (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build goseckill/backend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goseckill" />
       <working_directory value="$PROJECT_DIR$" />
@@ -201,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build goseckill/fronted (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build goseckill/fronted (1)" />
         <item itemvalue="Go Build.go build goseckill/fronted" />
         <item itemvalue="Go Build.go build goseckill/backend" />
       </list>
@@ -233,34 +145,34 @@
     </environment>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1007" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606804865104">
+    <state x="1007" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606804966843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1007" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606804865104" />
+    <state x="1007" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606804966843" />
     <state x="901" y="481" key="EnvironmentVariablesDialog" timestamp="1606804823191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="901" y="481" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606804823191" />
-    <state x="1119" y="299" key="FileChooserDialogImpl" timestamp="1606803589290">
+    <state x="1119" y="299" key="FileChooserDialogImpl" timestamp="1606835046590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1119" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606803589290" />
-    <state width="1210" height="239" key="GridCell.Tab.0.bottom" timestamp="1606804148962">
+    <state x="1119" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606835046590" />
+    <state width="1210" height="239" key="GridCell.Tab.0.bottom" timestamp="1606835451125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606804148962" />
-    <state width="1210" height="239" key="GridCell.Tab.0.center" timestamp="1606804148962">
+    <state width="1210" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606835451125" />
+    <state width="1210" height="239" key="GridCell.Tab.0.center" timestamp="1606835451125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606804148962" />
-    <state width="1210" height="239" key="GridCell.Tab.0.left" timestamp="1606804148962">
+    <state width="1210" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606835451125" />
+    <state width="1210" height="239" key="GridCell.Tab.0.left" timestamp="1606835451125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606804148962" />
-    <state width="1210" height="239" key="GridCell.Tab.0.right" timestamp="1606804148962">
+    <state width="1210" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606835451125" />
+    <state width="1210" height="239" key="GridCell.Tab.0.right" timestamp="1606835451125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1210" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606804148962" />
+    <state width="1210" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606835451125" />
     <state width="1210" height="297" key="GridCell.Tab.1.bottom" timestamp="1606663816790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

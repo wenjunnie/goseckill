@@ -4,14 +4,12 @@ import (
 	"context"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/mvc"
-	"github.com/kataras/iris/v12/sessions"
 	"github.com/opentracing/opentracing-go/log"
 	"goseckill/common"
 	"goseckill/fronted/middleware"
 	"goseckill/fronted/web/controllers"
 	"goseckill/repositories"
 	"goseckill/services"
-	"time"
 )
 
 func main() {
@@ -37,17 +35,18 @@ func main() {
 	if err != nil {
 		log.Error(err)
 	}
-	sess := sessions.New(sessions.Config{
-		Cookie:  "AdminCookie",
-		Expires: 600 * time.Minute,
-	})
+	//sess := sessions.New(sessions.Config{
+	//	Cookie:  "AdminCookie",
+	//	Expires: 600 * time.Minute,
+	//})
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 	//5.注册控制器
 	user := repositories.NewUserRepository("user", db)
 	userService := services.NewService(user)
 	userPro := mvc.New(app.Party("/user"))
-	userPro.Register(userService, ctx, sess.Start)
+	//userPro.Register(userService, ctx, sess.Start)
+	userPro.Register(userService, ctx)
 	userPro.Handle(new(controllers.UserController))
 
 	product := repositories.NewProductManagerRepository("product", db)

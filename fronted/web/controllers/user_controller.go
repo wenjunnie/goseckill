@@ -1,10 +1,12 @@
 package controllers
 
 import (
+	"fmt"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/mvc"
 	"github.com/kataras/iris/v12/sessions"
 	"goseckill/datamodels"
+	"goseckill/encrypt"
 	"goseckill/services"
 	"goseckill/tool"
 	"strconv"
@@ -65,7 +67,14 @@ func (c *UserController) PostLogin() mvc.Response {
 	}
 	//3、写入用户ID到cookie中
 	tool.GlobalCookie(c.Ctx, "uid", strconv.FormatInt(user.ID, 10))
-	c.Session.Set("userID", strconv.FormatInt(user.ID, 10))
+	uidByte := []byte(strconv.FormatInt(user.ID, 10))
+	uidString, err := encrypt.EnPwdCode(uidByte)
+	if err != nil {
+		fmt.Println(err)
+	}
+	//写入用户浏览器
+	tool.GlobalCookie(c.Ctx, "sign", uidString)
+
 	return mvc.Response{
 		Path: "/product/",
 	}
