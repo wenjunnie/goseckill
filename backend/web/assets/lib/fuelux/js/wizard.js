@@ -264,7 +264,7 @@
             var index = this.$element.find('.steps li').index(li);
 
             if (index < this.currentStep && this.options.disablePreviousStep) {//enforce restrictions
-                return;
+
             } else {
                 var evt = $.Event('stepclicked.fu.wizard');
                 this.$element.trigger(evt, {

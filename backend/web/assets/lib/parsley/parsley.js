@@ -151,7 +151,7 @@ function _toConsumableArray(arr) {
                     throw TypeError('Argument must be an object');
                 }
                 Object.prototype = prototype;
-                var result = new Object();
+                var result = {};
                 Object.prototype = null;
                 return result;
             };
@@ -2390,7 +2390,7 @@ function _toConsumableArray(arr) {
             }
 
         });
-    };
+    }
 
     var inputevent = new InputEvent();
 

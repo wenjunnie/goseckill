@@ -1,6 +1,14 @@
-::-moz-selection { background: #ec2424; }
-::-webkit-selection { background: #ec2424; }
-::selection { background: #ec2424; }
+::-moz-selection {
+    background: #ec2424;
+}
+
+::-webkit-selection {
+    background: #ec2424;
+}
+
+::selection {
+    background: #ec2424;
+}
 
 a,
 .loader,
@@ -19,7 +27,7 @@ a,
 .product__actions a:hover,
 .sign-in-popup__forgot-password:hover,
 .shop_table .product-name a:hover {
-	color: #ec2424;
+    color: #ec2424;
 }
 
 .btn:hover,
@@ -32,12 +40,12 @@ a,
 .remove:hover,
 #back-to-top:hover,
 .nav-cart__remove:hover {
-	background-color: #ec2424;
+    background-color: #ec2424;
 }
 
 
 input:focus,
 textarea:focus,
 .hero__link:hover {
-	border-color: #ec2424;
+    border-color: #ec2424;
 }

@@ -17,8 +17,7 @@ func main() {
 	//2.设置错误模式，在mvc模式下提示错误
 	app.Logger().SetLevel("debug")
 	//3.注册模板
-	template := iris.HTML("./backend/web/views", ".html").Layout(
-		"shared/layout.html").Reload(true)
+	template := iris.HTML("./backend/web/views", ".html").Layout("shared/layout.html").Reload(true)
 	app.RegisterView(template)
 	//4.设置模板目录
 	app.HandleDir("/assets", "./backend/web/assets")

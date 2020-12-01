@@ -156,9 +156,9 @@ var App = (function () {
             //Set the chart colors
             var color1 = App.color.primary;
             var color2 = tinycolor(App.color.primary).lighten(12);
-            ;
+
             var color3 = tinycolor(App.color.primary).lighten(22);
-            ;
+
 
             //Get the canvas element
             var ctx = document.getElementById("pie-chart");
@@ -195,9 +195,9 @@ var App = (function () {
             //Set the chart colors
             var color1 = App.color.success;
             var color2 = tinycolor(App.color.success).lighten(12);
-            ;
+
             var color3 = tinycolor(App.color.success).lighten(22);
-            ;
+
 
             //Get the canvas element
             var ctx = document.getElementById("donut-chart");
