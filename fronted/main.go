@@ -8,6 +8,7 @@ import (
 	"goseckill/common"
 	"goseckill/fronted/middleware"
 	"goseckill/fronted/web/controllers"
+	"goseckill/rabbitmq"
 	"goseckill/repositories"
 	"goseckill/services"
 )
@@ -49,6 +50,8 @@ func main() {
 	userPro.Register(userService, ctx)
 	userPro.Handle(new(controllers.UserController))
 
+	//创建RabbitMQ实例
+	rabbitmq := rabbitmq.NewRabbitMQSimple("goseckill")
 	product := repositories.NewProductManagerRepository("product", db)
 	productService := services.NewProductService(product)
 	order := repositories.NewOrderMangerRepository("order", db)
@@ -57,7 +60,7 @@ func main() {
 	pro := mvc.New(proProduct)
 	//权限校验
 	proProduct.Use(middleware.AuthConProduct)
-	pro.Register(productService, orderService)
+	pro.Register(productService, orderService, ctx, rabbitmq)
 	pro.Handle(new(controllers.ProductController))
 	//6.启动服务
 	app.Run(

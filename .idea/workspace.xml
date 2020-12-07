@@ -21,6 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1500dbde-b1be-4411-b04e-d089d872d456" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fronted/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/product_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/product_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/order_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/product_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/validate.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +77,31 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JetBrains\GoProjects\src\goseckill\common" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill" />
+      <recent name="D:\JetBrains\GoProjects\src\goseckill\rabbitmq" />
+      <recent name="D:\JetBrains\GoProjects\src\goseckill\datamodels" />
       <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted" />
-      <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted\web\views" />
-      <recent name="D:\JetBrains\GoProjects\src\goseckill\fronted\web\controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build validate.go">
+  <component name="RunManager" selected="Go Build.go build goseckill">
+    <configuration name="go build consumer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goseckill" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/consumer.go" />
+      <package value="goseckill" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build goseckill" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goseckill" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/validate.go" />
       <package value="goseckill" />
       <directory value="$PROJECT_DIR$" />
@@ -94,15 +112,6 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/fronted/productMain.go" />
-      <package value="goseckill/fronted" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build goseckill/fronted" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goseckill" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/fronted/main.go|$PROJECT_DIR$/fronted/productMain.go" />
       <package value="goseckill/fronted" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -127,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build validate.go" />
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build goseckill" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build consumer.go" />
+        <item itemvalue="Go Build.go build validate.go" />
         <item itemvalue="Go Build.go build goseckill/fronted (1)" />
-        <item itemvalue="Go Build.go build goseckill/fronted" />
       </list>
     </recent_temporary>
   </component>

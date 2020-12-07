@@ -1,10 +1,12 @@
 package controllers
 
 import (
+	"encoding/json"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/mvc"
 	"github.com/kataras/iris/v12/sessions"
 	"goseckill/datamodels"
+	"goseckill/rabbitmq"
 	"goseckill/services"
 	"html/template"
 	"os"
@@ -17,6 +19,7 @@ type ProductController struct {
 	ProductService services.IProductService
 	OrderService   services.IOrderService
 	Session        *sessions.Session
+	RabbitMQ       *rabbitmq.RabbitMQ
 }
 
 var (
@@ -88,7 +91,8 @@ func (p *ProductController) GetDetail() mvc.View {
 	}
 }
 
-func (p *ProductController) GetOrder() mvc.View {
+//不使用消息队列方式
+func (p *ProductController) GetOrderWithoutMQ() mvc.View {
 	productString := p.Ctx.URLParam("productID")
 	userString := p.Ctx.GetCookie("uid")
 	productID, err := strconv.Atoi(productString)
@@ -136,4 +140,31 @@ func (p *ProductController) GetOrder() mvc.View {
 			"showMessage": showMessage,
 		},
 	}
+}
+
+//使用消息队列方式
+func (p *ProductController) GetOrder() []byte {
+	productString := p.Ctx.URLParam("productID")
+	userString := p.Ctx.GetCookie("uid")
+	productID, err := strconv.ParseInt(productString, 10, 64)
+	if err != nil {
+		p.Ctx.Application().Logger().Debug(err)
+	}
+	userID, err := strconv.ParseInt(userString, 10, 64)
+	if err != nil {
+		p.Ctx.Application().Logger().Debug(err)
+	}
+	//创建消息体
+	message := datamodels.NewMessage(userID, productID)
+	//类型转化
+	byteMessage, err := json.Marshal(message)
+	if err != nil {
+		p.Ctx.Application().Logger().Debug(err)
+	}
+	err = p.RabbitMQ.PublishSimple(string(byteMessage))
+	if err != nil {
+		p.Ctx.Application().Logger().Debug(err)
+	}
+
+	return []byte("true")
 }
