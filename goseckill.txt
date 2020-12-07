@@ -1,0 +1,32 @@
+======================RabbitMQ==========================
+wget http://www.rabbitmq.com/releases/erlang/erlang-19.0.4-1.el7.centos.x86_64.rpm
+wget http://www.rabbitmq.com/releases/rabbitmq-server/v3.6.10/rabbitmq-server-3.6.10-1.el7.noarch.rpm
+rpm -ivh erlang-19.0.4-1.el7.centos.x86_64.rpm
+rpm -ivh rabbitmq-server-3.6.10-1.el7.noarch.rpm
+systemctl start rabbitmq-server
+rabbitmq-plugins enable rabbitmq_management //管理界面，便于外网访问
+=======================数据库===========================
+CREATE TABLE `order` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `userID` int(11) DEFAULT NULL,
+  `productID` int(11) DEFAULT NULL,
+  `orderStatus` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `product` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `productName` varchar(255) DEFAULT NULL,
+  `productNum` int(11) DEFAULT NULL,
+  `productImage` varchar(255) DEFAULT NULL,
+  `productUrl` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `user` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `nickName` varchar(255) DEFAULT NULL,
+  `userName` varchar(255) DEFAULT NULL,
+  `passWord` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

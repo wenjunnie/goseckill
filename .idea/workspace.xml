@@ -21,14 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1500dbde-b1be-4411-b04e-d089d872d456" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/filter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/product_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/product_repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/order_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/product_service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/validate.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -13,6 +13,7 @@ import (
 	"net/url"
 	"strconv"
 	"sync"
+	"time"
 )
 
 //设置集群地址，最好内网IP
@@ -32,18 +33,29 @@ var hashConsistent *common.Consistent
 //rabbitmq
 var rabbitMqValidate *rabbitmq.RabbitMQ
 
-//用来存放控制信息，
+//用来存放控制信息
 type AccessControl struct {
 	//用来存放用户想要存放的信息
-	sourcesArray map[int]interface{}
+	sourcesArray map[int]time.Time
 	sync.RWMutex
 }
 
+//黑名单
+type BlackList struct {
+	listArray map[int]bool
+	sync.RWMutex
+}
+
+//服务器间隔时间，单位秒
+var interval = 20
+
 //创建全局变量
-var accessControl = &AccessControl{sourcesArray: make(map[int]interface{})}
+var accessControl = &AccessControl{sourcesArray: make(map[int]time.Time)}
+
+var blackList = &BlackList{listArray: make(map[int]bool)}
 
 //获取指定的数据
-func (m *AccessControl) GetNewRecord(uid int) interface{} {
+func (m *AccessControl) GetNewRecord(uid int) time.Time {
 	m.RWMutex.RLock()
 	defer m.RWMutex.RUnlock()
 	data := m.sourcesArray[uid]
@@ -53,8 +65,23 @@ func (m *AccessControl) GetNewRecord(uid int) interface{} {
 //设置记录
 func (m *AccessControl) SetNewRecord(uid int) {
 	m.RWMutex.Lock()
-	m.sourcesArray[uid] = "hello world!"
+	m.sourcesArray[uid] = time.Now()
 	m.RWMutex.Unlock()
+}
+
+//获取黑名单
+func (m *BlackList) GetBlackListByID(uid int) bool {
+	m.RLock()
+	defer m.RUnlock()
+	return m.listArray[uid]
+}
+
+//添加黑名单
+func (m *BlackList) SetBlackListByID(uid int) bool {
+	m.Lock()
+	defer m.Unlock()
+	m.listArray[uid] = true
+	return true
 }
 
 func (m *AccessControl) GetDistributedRight(req *http.Request) bool {
@@ -82,17 +109,25 @@ func (m *AccessControl) GetDistributedRight(req *http.Request) bool {
 
 //获取本机map，并且处理业务逻辑，返回的结果类型为bool类型
 func (m *AccessControl) GetDataFromMap(uid string) (isOk bool) {
-	//uidInt, err := strconv.Atoi(uid)
-	//if err != nil {
-	//	return false
-	//}
-	//data := m.GetNewRecord(uidInt)
-	//
-	//执行逻辑判断
-	//if data != nil {
-	//	return true
-	//}
-	return
+	uidInt, err := strconv.Atoi(uid)
+	if err != nil {
+		return false
+	}
+	//判断用户是否在黑名单中
+	if blackList.GetBlackListByID(uidInt) {
+		return false
+	}
+	//获取记录
+	dataRecord := m.GetNewRecord(uidInt)
+	//时间是否已被设置
+	if !dataRecord.IsZero() {
+		//业务判断是否在指定时间之后，意思指抢购后需要在interval时间后才能再次抢购成功
+		if dataRecord.Add(time.Duration(interval) * time.Second).After(time.Now()) {
+			return false
+		}
+	}
+	m.SetNewRecord(uidInt)
+	return true
 }
 
 //获取其它节点处理结果
